@@ -5,7 +5,7 @@ import { LuMessageCircleMore } from "react-icons/lu"; //message, search icon
 
 const MobileNavbar = () => {
     return (
-        <nav className='h-14 w-full bg-white border-t border-zinc-200 flex lg:hidden justify-center items-center fixed bottom-0 right-0 left-0'>
+        <nav className='z-50 h-14 w-full bg-white border-t border-zinc-200 flex lg:hidden justify-center items-center fixed bottom-0 right-0 left-0'>
 
             <div className='w-full flex justify-around'>
 
