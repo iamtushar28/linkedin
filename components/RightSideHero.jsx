@@ -9,7 +9,7 @@ import { IoSettingsOutline } from "react-icons/io5"; //setting icon
 
 const RightSideHero = () => {
     return (
-        <section className='w-[24%] flex flex-col gap-5'>
+        <section className='w-[24%] hidden lg:flex flex-col gap-5'>
 
             {/* user profile component */}
             <UserProfile />
