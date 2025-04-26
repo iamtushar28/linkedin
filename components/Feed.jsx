@@ -7,10 +7,11 @@ import Post from './shared/Post'
 import { CiImageOn, CiVideoOn, CiCalendar } from "react-icons/ci"; //image, video, Calendar icon
 import { MdOutlineArticle } from "react-icons/md"; //article icon
 import { IoIosSend } from "react-icons/io"; //send icon
+import LeftSideHero from './LeftSideHero'
 
 const Feed = () => {
     return (
-        <section className='px-2 md:px-8 lg:px-16 pt-4 pb-20 md:pb-24 md:py-8 w-full flex gap-4 justify-between'>
+        <section className='px-2 md:px-8 lg:px-16 pb-20 mt-20 md:mt-24 w-full flex gap-4 justify-between'>
 
             {/* right side hero section component */}
             <RightSideHero />
@@ -78,7 +79,8 @@ const Feed = () => {
 
             </div>
 
-            <RightSideHero />
+            {/* left side hero section component */}
+            <LeftSideHero/>
 
 
         </section>

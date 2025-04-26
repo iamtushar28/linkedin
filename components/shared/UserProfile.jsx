@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import ProfileBanner from '@/public/images/banner.png'
 import Tushar from '@/public/images/tushar.png'
+import { CiLocationOn } from "react-icons/ci"; //location icon
 
 const UserProfile = () => {
     return (
@@ -23,10 +24,13 @@ const UserProfile = () => {
                 <h2 className='text-sm ml-12 mt-1 capitalize font-semibold'>Tushar Suryawanshi</h2>
 
                 {/* profession */}
-                <h2 className='text-xs mt-1 ml-12 capitalize text-zinc-800'>Frontend Developer | React.js Developer | Next.js Developer</h2>
+                <h2 className='text-xs mt-1 ml-12 capitalize text-zinc-800'>Software Engineer | Frontend Developer</h2>
 
                 {/* location */}
-                <h2 className='text-xs ml-12 mt-2 capitalize text-zinc-500'>Satara, Maharashtra</h2>
+                <h2 className='text-xs ml-12 mt-2 capitalize text-zinc-500 flex gap-1 items-center'>
+                    <CiLocationOn className='text-blue-500'/>
+                    Satara, Maharashtra
+                </h2>
 
             </div>
 

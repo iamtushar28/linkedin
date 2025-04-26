@@ -6,6 +6,7 @@ import { HiOutlineChartSquareBar } from "react-icons/hi"; //graph icon
 import { RiUserAddLine, RiGamepadLine } from "react-icons/ri"; //user, game icon
 import { CiBookmark } from "react-icons/ci"; //bookmark icon
 import { IoSettingsOutline } from "react-icons/io5"; //setting icon
+import Connections from './shared/Connections';
 
 const RightSideHero = () => {
     return (
@@ -13,6 +14,9 @@ const RightSideHero = () => {
 
             {/* user profile component */}
             <UserProfile />
+
+            {/* user connections component */}
+            <Connections />
 
             {/* links sidebar */}
             <div className='w-full h-fit py-8 px-6 bg-white rounded-3xl flex flex-col gap-6'>
