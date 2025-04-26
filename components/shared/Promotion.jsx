@@ -16,7 +16,7 @@ const Promotion = () => {
             </div>
 
             {/* Promotion Visual image */}
-            <Image src={PromotionVisual} alt='PromotionVisual' className='w-40 h-fit absolute bottom-0 right-0' />
+            <Image src={PromotionVisual} alt='PromotionVisual' className='w-40 h-fit absolute bottom-0 -right-6' />
 
         </div>
     )
